@@ -19,7 +19,7 @@ Fix:
 
 This project uses the Cisco c1700 image (c1700-adventerprisek9-mz.124-25d.image). Copy it from the original machine to the target machine (USB, network share, etc.)
 
-Linux: ~/GNS3/images/IOS/
+Linux: ~/GNS3/images/IOS/  
 Windows: C:\Users\<YourName>\GNS3\images\IOS\
 
 
