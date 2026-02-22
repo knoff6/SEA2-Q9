@@ -17,7 +17,7 @@ Try importing again
 The target machine doesn't have the Cisco c1700 IOS image that was used to build the topology.  
 Fix:  
   
-This project uses the Cisco c1700 image (`c1700-adventerprisek9-mz.124-25d.image`). Download it from [here](https://mega.nz/#!UUtW0SiD!H7_Es2upjEZwSU9j9Y4FumJgKLTm3ibIQ4fKTqYu9dg).
+This project uses the Cisco c1700 image (`c1700-adventerprisek9-mz.124-25d.image`). Download it from [here](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG).
 
 
 Install the image in GNS3: Edit → Preferences → Dynamips → IOS Routers → New → browse to the image → complete the wizard
