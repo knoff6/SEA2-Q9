@@ -5,26 +5,23 @@ Two-router network (R1–R2) with VPCS endpoints (PC1, PC2) and Ethernet switche
 ## Troubleshooting Import Issues
 ### ❌ "Cannot connect to compute 'Remote' with request POST /projects"
 This commonly occurs when importing on GNS3 v3 (Windows). The GNS3 client is trying to reach a Remote compute (GNS3 VM) that isn't running or reachable.
-Fix:
+Fix:  
 
-Open GNS3 (without importing anything)
-Go to Edit → Preferences → Controller → Remote Computes
-Disable or remove the Remote compute entry
-Wait for the green light in the bottom-left corner (server connected)
-Try importing again
-
-### ❌ "The image 'c1700-adventerprisek9-mz.124-25d.image' is missing"
-The target machine doesn't have the Cisco c1700 IOS image that was used to build the topology.
-Fix:
-
-This project uses the Cisco c1700 image (c1700-adventerprisek9-mz.124-25d.image). Copy it from the original machine to the target machine (USB, network share, etc.)
-
-Linux: ~/GNS3/images/IOS/  
-Windows: C:\Users\<YourName>\GNS3\images\IOS\
+Open GNS3 (without importing anything)  
+Go to Edit → Preferences → Controller → Remote Computes  
+Disable or remove the Remote compute entry  
+Wait for the green light in the bottom-left corner (server connected)  
+Try importing again  
+  
+### ❌ "The image 'c1700-adventerprisek9-mz.124-25d.image' is missing"  
+The target machine doesn't have the Cisco c1700 IOS image that was used to build the topology.  
+Fix:  
+  
+This project uses the Cisco c1700 image (c1700-adventerprisek9-mz.124-25d.image). Download it from [here]([url](https://mega.nz/#!UUtW0SiD!H7_Es2upjEZwSU9j9Y4FumJgKLTm3ibIQ4fKTqYu9dg)) 
 
 
 Install the image in GNS3: Edit → Preferences → Dynamips → IOS Routers → New → browse to the image → complete the wizard
-Try importing the project again
+Try importing the project again  
 
 
 Tip: Ensure all lab machines have the same IOS image installed before exam day.
